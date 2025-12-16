@@ -218,6 +218,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center text-sm text-muted-foreground">
             <p>© 2024 Гранит Про. Все права защищены.</p>
+            <div className="mt-4 opacity-30 text-xs">
+              <a href="https://poehali.dev" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity">
+                Сделано на poehali.dev
+              </a>
+            </div>
           </div>
         </div>
       </footer>
